@@ -25,7 +25,7 @@ Para replicar a análise em um ambiente de desenvolvimento local, siga os passos
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone (https://github.com/lizmartns/teste-farmtech.git)
     cd teste-farmtech
     ```
 

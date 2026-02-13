@@ -31,7 +31,7 @@ Para replicar a análise em um ambiente de desenvolvimento local, siga os passos
 
 2.  **Crie e ative um ambiente virtual (recomendado):**
     ```bash
-    python -m venv .venv
+    python3 -m venv .venv
     source .venv/bin/activate  # Linux/macOS
     # .venv\Scripts\activate  # Windows
     ```

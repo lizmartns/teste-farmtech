@@ -29,12 +29,19 @@ Para replicar a análise em um ambiente de desenvolvimento local, siga os passos
     cd teste-farmtech
     ```
 
-2.  **Instale as dependências:**
+2.  **Crie e ative um ambiente virtual (recomendado):**
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # Linux/macOS
+    # .venv\Scripts\activate  # Windows
+    ```
+
+3.  **Instale as dependências:**
     ```bash
     pip install pandas openpyxl jupyter
     ```
 
-3.  **Inicie o Jupyter Notebook:**
+4.  **Inicie o Jupyter Notebook:**
     ```bash
     jupyter notebook notebook/analysis_data.ipynb
     ```
